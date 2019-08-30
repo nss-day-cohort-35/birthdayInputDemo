@@ -1,11 +1,11 @@
 
 //Function builds an object, we will pass it the user input name and birthday
 let objectBuilder = (nameValue, birthdayValue) => {
-    let object = {
+    let birthdayObject = {
         name:nameValue ,
         birthday: birthdayValue
     }
-    return object
+    return birthdayObject
 }
 
 //Function takes an object and returns an html string
